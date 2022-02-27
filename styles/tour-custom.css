@@ -1,0 +1,95 @@
+html body {
+    background-color: #1A1A1A;
+}
+
+
+/*~~~~NavBar~~~~*/
+.navbar-brand {
+    font-family: 'Pacifico', cursive;
+    color: rgb(224, 15, 15) !important;
+    float: left;
+    font-weight: 700;
+    font-size: 2.5em;
+    transition: ease-in-out 500ms;
+}
+
+.navbar-brand:hover {
+    
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.75),
+                 0 0 20px rgb(224, 15, 15);
+}
+
+.nav-link {
+    color: rgba(255, 255, 255, 0.75) !important;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-left: 4em !important;
+    transition: ease-in-out 350ms;
+}
+
+.nav-item .active {
+    color: rgb(255, 255, 255) !important;
+}
+
+.nav-link:hover {
+    color: rgb(255, 255, 255) !important;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.75),
+                 0 0 20px rgb(224, 15, 15),
+                 0 0 50px rgb(224, 15, 15);
+}
+
+/*~~~~~Nav Icons~~~~*/
+.nav-icon {
+    margin-left: 0 !important;
+}
+
+.sm-icons {
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 991px) {
+    .sm-icons .nav-item {
+        padding-right: 1em;
+    }
+    .sm-icons .nav-item:first-child {
+        margin-left: 4em;
+    }
+}
+
+main {
+    color: rgba(255, 255, 255, 0.75) !important;
+    margin-top: 100px;
+}
+
+
+
+.map-responsive{
+
+    overflow:hidden;
+
+    padding-bottom:40.25%;
+
+    position:relative;
+
+    height:0;
+
+}
+
+.map-responsive iframe{
+
+    left:0;
+
+    top:0;
+
+    height:100%;
+
+    width:100%;
+
+    position:absolute;
+    max-width: 1000px;
+    max-height: 600px !important;
+
+}
+
